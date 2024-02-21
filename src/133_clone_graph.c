@@ -77,7 +77,7 @@ struct Node* recursive_dequeue()
       }
     }
     return ret_data;
- }
+}
 
 struct Node *cloneGraph(struct Node *s) {
   if(s == NULL) return s;
